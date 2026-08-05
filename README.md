@@ -1,5 +1,4 @@
-[README.md](https://github.com/user-attachments/files/30759899/README.md)
-# 🛡️ PhishGuard AI
+#  PhishGuard AI
 
 PhishGuard AI is a machine-learning-powered web application that analyses a website URL and predicts whether it is **legitimate** or **potentially phishing**.
 
@@ -9,7 +8,7 @@ The application connects a trained **LightGBM classifier** to a Flask-based web 
 
 ---
 
-## ✨ Features
+##  Features
 
 - Analyse a website URL through a simple web interface
 - Predict whether a website is legitimate or phishing
@@ -24,7 +23,7 @@ The application connects a trained **LightGBM classifier** to a Flask-based web 
 
 ---
 
-## 🧠 Machine-Learning Model
+##  Machine-Learning Model
 
 | Property | Details |
 |---|---|
@@ -38,7 +37,7 @@ Before prediction, the extracted feature values are arranged in the same order s
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Component | Technology |
 |---|---|
@@ -51,7 +50,7 @@ Before prediction, the extracted feature values are arranged in the same order s
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 Phishing-Website-Detection/
@@ -72,7 +71,7 @@ Phishing-Website-Detection/
 
 ---
 
-## ⚙️ Installation and Local Setup
+##  Installation and Local Setup
 
 ### 1. Clone the repository
 
@@ -129,7 +128,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 1. Start the Flask application.
 2. Open the website in a browser.
@@ -139,7 +138,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 🌐 Share Temporarily Using ngrok
+##  Share Temporarily Using ngrok
 
 Start the Flask application in one terminal:
 
@@ -159,7 +158,7 @@ Ngrok will provide a public HTTPS URL that can be opened on other devices. Both 
 
 ---
 
-## ☁️ Deployment on Render
+##  Deployment on Render
 
 The application can be deployed as a Render Web Service.
 
@@ -181,7 +180,7 @@ After deployment, Render provides a public URL that works even when the local co
 
 ---
 
-## ⚠️ Current Limitations
+##  Current Limitations
 
 The trained model expects 87 features. Some original features, including `web_traffic`, `google_index`, and `page_rank`, depend on third-party services that may not offer stable, free, keyless APIs. The application therefore uses neutral values when these features cannot be obtained.
 
@@ -191,7 +190,7 @@ Because the live feature-extraction process may differ from the process used to 
 
 ---
 
-## 🔐 Security Considerations
+##  Security Considerations
 
 - The application does not automatically open submitted URLs in the user's browser.
 - Localhost and private-network addresses should remain blocked to reduce server-side request forgery risks.
@@ -200,7 +199,7 @@ Because the live feature-extraction process may differ from the process used to 
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Retrain the model using reliably extractable real-time features
 - Add SHAP-based prediction explanations
@@ -213,7 +212,7 @@ Because the live feature-extraction process may differ from the process used to 
 
 ---
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 
 Model performance can be evaluated using:
 
@@ -230,13 +229,13 @@ The complete deployed pipeline should be evaluated on a recent, unseen dataset r
 
 ---
 
-## 👩‍💻 Project Purpose
+##  Project Purpose
 
 This project was developed as part of a six-week **Machine Learning and Generative AI using Python internship**. It applies feature engineering and machine-learning techniques to the real-world problem of phishing website detection.
 
 ---
 
-## 🤝 Contributors
+##  Contributors
 
 - [Ananya Kathpalia](https://github.com/Ananya171207)
 - [Laksh Sikri](https://github.com/Lakshsikri)
