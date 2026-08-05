@@ -1,3 +1,4 @@
+<img width="1521" height="825" alt="WhatsApp Image 2026-08-06 at 01 49 18" src="https://github.com/user-attachments/assets/78d81355-3a07-4d06-9f35-2848385b50dc" />
 #  PhishGuard AI
 
 PhishGuard AI is a machine-learning-powered web application that analyses a website URL and predicts whether it is **legitimate** or **potentially phishing**.
