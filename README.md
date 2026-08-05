@@ -238,9 +238,10 @@ This project was developed as part of a machine-learning and generative-AI inter
 
 Add the names and GitHub profiles of all team members here.
 
-Team Member 1 — Ananya171207
-Team Member 2 — Lakshsikri
-Team Member 3 — 
+Team Member 1 — Ananya171207 
+Team Member 2 — Lakshsikri 
+Team Member 3 — vedantmaan07 
+Team Member 4 — Trishajha817
 
 📄 License
 
